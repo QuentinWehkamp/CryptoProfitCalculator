@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <h1>Potential Profit Calculator</h1>
+    <div class="container">
+      <form>
+        <label for="coinP">Coin Price:</label>
+        <input type="number" name="coinP" id="coinP" required />
+
+        <label for="coinS">Expected Sell Price:</label>
+        <input type="number" name="coinS" id="coinS" required />
+
+        <label for="invested">Amount Invested:</label>
+        <input type="number" name="invested" id="invested" required />
+
+        <input type="submit" value="Calculate" />
+      </form>
+    </div>
+  </body>
+  <script src="Calculate.js"></script>
+</html>
